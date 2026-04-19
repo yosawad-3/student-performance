@@ -113,13 +113,13 @@ from model features to avoid leakage (since they directly form the target).
 
 ---
 
-## 📈 Model Evaluation
+## 📈 Model Evaluation (Final Results)
 
 | Metric   | Value |
 | -------- | ----- |
-| Train R² | 0.97  |
-| Test R²  | 0.86  |
-| MAE      | 5.38  |
+| Train R² | 0.91  |
+| Test R²  | 0.89  |
+| MAE      | 5.11  |
 
 ---
 
@@ -128,7 +128,8 @@ from model features to avoid leakage (since they directly form the target).
 * Study Time positively impacts performance
 * Absences negatively affect scores
 * Socioeconomic factors (Lunch Type, Parental Education) influence outcomes
-* Model captures most of the variance in student performance
+* Model generalizes well with minimal overfitting
+* Prediction error is around **±5 marks**, which is realistic and reliable
 
 ---
 
@@ -162,6 +163,7 @@ GitHub: https://github.com/yosawad-3
 
 This project demonstrates how machine learning can be applied to educational data to:
 
-* Predict student performance
+* Predict student performance with high accuracy
 * Identify key influencing factors
-* Support data-driven decision-making in education
+* Build a reliable and generalizable regression model
+
